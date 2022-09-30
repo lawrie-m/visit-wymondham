@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(images/town-long.jpg);
+    width: 600px;
+    height: 280px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#title {
+    margin: 95px 0 10px 0;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background: #1D3557;
+}
+
+#intro {
+    margin: 5px 50px 10px 50px;
+    padding: 4px 4px;
+    border-radius: 10px;
+    width: 400px;
+    background: #8CAEC2ff;
+}
+
+.activities {
+    background: #E4F3F8;
+    height: 260px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.act-title {
+    width: 130px;
+    margin: 20px auto;
+    font-weight: bold
+}
+
+.act-body {
+    width: 150px;
+    margin: 20px auto;
+    font-size: small;
+}
+
+.act-image {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+#guide {
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    background: #1D3557;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 6px solid #8CAEC2ff;
+}
+
+#headshot {
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+#guide-title {
+    margin-top: 50px;
+}
+
+#guide-blurb {
+    margin: 40px 10px 20px 10px;
+    width: 280px;
+    font-style: italic;
+}
+
+/* CSS HEX
+--pewter-blue: #8CAEC2ff;
+--davys-grey: #4B504Eff;
+--davys-grey-2: #645D57ff;
+--charcoal: #4A535Bff;
+--jet: #38332Dff
+
+--silver-chalice: #AAAEACff;
+--beaver: #927B69ff;
+--timberwolf: #CEC9BFff;
+--charcoal: #4A535Bff;
+--azure-x-11-web-color: #E4F3F8ff;
+*/
